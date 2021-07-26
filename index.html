@@ -17,6 +17,7 @@
         <body background = "https://cdnb.artstation.com/p/assets/images/images/007/920/741/large/mikhail-emelianov-bg-slav-color-2-3.jpg?1509369224">
         <center>
             <button class="btn header" data-toggle="modal" data-target="#myModel"><label></label> </button>
+            <span class="together">
             <svg onclick="startGame()" id="play"  viewBox="0 0 163 163" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"="0px">
                 <g fill="none">
                     <g  transform="translate(2.000000, 2.000000)" stroke-width="4">
@@ -26,7 +27,8 @@
                     </g>
                 </g>
             </svg>
-            
+            <input type="button" id="restart" onclick="restart()"></button>
+          </span>
             <div id="game_console"></div>
             <div id="canvas"></div>
             

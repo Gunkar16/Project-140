@@ -100,3 +100,16 @@ canvas{
   border:white solid 3px;
   border-radius: 20px;
 }
+#restart{
+  background-image:url('restart.png');
+  width:90px;
+  height:90px;
+  background-color:#36454f;
+  border-radius: 50%;
+}
+#restart:hover{
+  border-top: gray !important;
+  border-width:2px !important;
+}
+.together{
+}
